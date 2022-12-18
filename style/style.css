@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__wrapper {
+  width: 1256px;
+  height: 1244px;
+  background-color: #d9d9d9;
+  overflow: hidden;
+  position: relative;
+}
+.box__wrapper .circul__1 {
+  width: 1034px;
+  height: 986px;
+  background-color: #248456;
+  border-radius: 50%;
+  position: absolute;
+  top: -324px;
+  left: -326px;
+  z-index: 1;
+}
+.box__wrapper .triangle__1 {
+  height: 0;
+  width: 0;
+  border-left: 312px solid transparent;
+  border-right: 341px solid transparent;
+  border-bottom: 333px solid #ce3606;
+  position: absolute;
+  top: 0;
+  right: -27%;
+  z-index: 1;
+}
+.box__wrapper .rectangle__1 {
+  background-color: #1c3f9b;
+  height: 144px;
+  width: 999px;
+  position: absolute;
+  top: 490px;
+  left: 139px;
+  transform: rotate(47deg);
+  z-index: 2;
+}
+.box__wrapper .rectangle__2 {
+  background-color: #910fc0;
+  height: 253px;
+  width: 936px;
+  position: absolute;
+  top: 833px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+  border-radius: 85px;
+}
+.box__wrapper .circul__2 {
+  width: 315px;
+  height: 315px;
+  background-color: #0da566;
+  position: absolute;
+  border-radius: 50%;
+  top: 420px;
+  right: 238px;
+  z-index: 3;
+}
+
+/*# sourceMappingURL=style.css.map */
